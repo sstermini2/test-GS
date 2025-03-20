@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ALiDiM DH Training - Encoding Ch.1 Kitāb Sībawayhi</title>
+            <respStmt>
+               <resp xml:id="SST"/>
+               <name>Salvatore Simone Termini</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>ALiDiM - DH Training</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <author>Solomon Sara, S.J.</author>
+                  <title level="a">This is the Famous Book of Sībawayh on naħw 'Grammar' and its Name is ʔal-kitāb 'The Book'</title>
+               </analytic>
+               <monogr>
+                  <title level="j">Journal of Arabic Linguistics Tradition</title>
+                  <imprint>
+                     <date>November 2003</date>
+                     <biblScope unit="volume">1</biblScope>
+                     <biblScope unit="page">35-52</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+      <pb n="35"/>
+      <div type="article" xml:id="article">
+         <cb n="1" rend="left_side"/>
+         <div type="translation" xml:lang="en">
+            <head n="1">This is the Famous Book of Sībawayh on naħw 'Grammar' and its Name is ʔal-kitāb 'The Book'</head>
+               <p><name type="article's_author">Solomon Sara</name>, S.J. Georgetown University</p>
+               <div type="book">
+                  <p>In the Name of God the most merciful and the most compassionate. From him we seek help.</p>
+                  <div type="chapter" n="I:1">
+                     <head n="2">Chapter 1. This is bāb 'a chapter' on the ʕilm 'science': What are the Words of Arabic</head>
+                     <p corresp="#article">(<bibl><editor>Bulaq</editor> <biblScope unit="volume">vol. 1.</biblScope> <biblScope unit="page">P.2</biblScope></bibl>,
+                     <bibl><editor>Derenbourg</editor> <biblScope unit="volume">vol.1</biblScope> <biblScope unit="page">p.1</biblScope></bibl>,
+                     <bibl><editor>Haruwn</editor> <biblScope unit="volume">vol.1</biblScope> <biblScope unit="page">p.12</biblScope></bibl>)<note xml:id="note_1" type="footnote" n="1">1</note></p>
+
+                     <p>Words are: <term xml:lang="ar">ʔism</term> 'name', <term xml:lang="ar">fiʕl</term> 'action', and <term xml:lang="ar">ħarf</term> 'particle'<note xml:id="note_2" type="footnote" n="2">2</note>.
+                     Particle <term xml:lang="ar">gāʔa limaʕnah</term> ‘has meaning’. It is neither <term xml:lang="ar">ʔism</term> ‘a name’ nor <term xml:lang="ar">fiʕl</term>
+                     ' an action'. <term xml:lang="ar">ʔism</term> ‘name’<note xml:id="note_3" type="footnote" n="3">3</note> is: <term xml:lang="ar">ragulun</term> 'man’, <term xml:lang="ar">farasun</term> ‘horse’
+                     <term xml:lang="ar">ħāʔiţun</term> ‘ wall' . As for <term xml:lang="ar">fiʕl</term> 'action' , examples were taken from the <term xml:lang="ar">lafđ</term>
+                     'expression' for the <term xml:lang="ar">ʔalfāđ</term> 'events' of the <term xml:lang="ar">ʔasmāʔ</term> 'names', and were constructed for what maďā ‘has passed,
+                     what <term xml:lang="ar">yakuwnu</term> ‘is to be’ but has not <term xml:lang="ar">yaɢaʕ</term> ‘happened’, and for what is <term xml:lang="ar">kāʔin</term>
+                     ‘existent’ and has not <term xml:lang="ar">yanɢaţiʕ</term> ‘ceased’. As for the structure of what <term xml:lang="ar">maďā</term> ‘has passed’, it is:
+                     <term xml:lang="ar">ðahaba</term> 'he went', <term xml:lang="ar">samiʕa</term> 'he heard', <term xml:lang="ar">makuθa</term> 'he remained', and 
+                     <term xml:lang="ar">ħumida</term> 'he was thanked'. As for the structure of what has not <term xml:lang="ar">yaɢaʕ</term> ‘happened’, it is, as your statement
+                     in giving a command: <term xml:lang="ar">ʔiðhab</term> 'go!', <term xml:lang="ar">ʔuɢtul</term> 'kill!', <term xml:lang="ar">ʔiďrib</term> 'hit!', and 
+                     <term xml:lang="ar">muxbiran</term> 'predicating’:(L.5) <term xml:lang="ar">yaɢtulu</term> 'he kills'<note xml:id="note_4" type="footnote" n="4">4</note>, <term xml:lang="ar">yaðhabu</term> 'he goes', 
+                     <term xml:lang="ar">yaďribu</term> 'he hits', <term xml:lang="ar">yuɢtalu</term> 'he is killed', and <term xml:lang="ar">yuďrabu</term> 'he is hit'. Similarly 
+                     is the structure of what has not <term xml:lang="ar">yanɢaţiʕ</term> ‘ceased’ and is still <term xml:lang="ar">kāʔin</term> ‘existent’, if you were
+                     to predicate about it. These <term xml:lang="ar">ʔamθilah</term> ‘examples’ are taken from the <term xml:lang="ar">lafđ</term> 'expression' for the 
+                     <term xml:lang="ar">ʔaħdāθ</term> 'events' of the <term xml:lang="ar">ʔasmāʔ</term> 'names', and they have many structures which will be explained, God 
+                     willing. As for <term xml:lang="ar">ʔaħdāθ</term> 'events', examples are: <term xml:lang="ar">ʔal-ďarb</term> 'the hit', <term xml:lang="ar">ʔal-ɢatl</term> 
+                     'the kill', and <term xml:lang="ar">ʔal-ħamd</term> 'the praise'.</p>
+                     <pb n="36"/><p>As for what has meaning but is neither <term xml:lang="ar">ʔism</term> ‘a name’ nor <term xml:lang="ar">fiʕl</term> ' an action' they are such as:
+                     <term xml:lang="ar">θumma</term> 'then', <term xml:lang="ar">sawfa</term> 'future marker', <term xml:lang="ar">wāw ʔal-qasam</term> '[w] of oath',
+                     <term xml:lang="ar">lām</term> ‘[l]’ of <term xml:lang="ar">ʔal-ʔiďāfah</term> ‘annexion’, and similar ones.<note xml:id="note_5" type="footnote" n="5">5</note></p>
+                  </div>
+               </div>
+         </div>
+         <cb n="2" xml:lang="ar" rend="right_side"/>
+         <div type="original_text" xml:lang="ar">
+            <head n="3">هذا كتاب سيبويه المشهور في نحو واسمه الكتاب</head>
+            <div type="book">
+               <p>بسم الله الرحمن الرحيم وبه نستعين</p>
+               <div type="chapter" n="I:1">
+                  <head n="4"> هذا باب علم ما الكَلِمُ من العربية (١)</head>
+                  <p>فالكَلِمُ: اسمٌ، وفِعْلٌ، وحَرْفٌ جاء لمعنى ليس باسم ولا فعل فالاسمُ رجلٌ، وفرسٌ وحائطٌ وأما الفعل فأمثلةٌ أُخذتْ من لفظ أحداث الأسماء وُبنيتْ لما مضى ولما يكون ولم يقع،
+                   وما هو كائن لم يَنقطع فأما بناء ما مضى فذَهَبَ وسَمِعَ ومَكُثَ وحُمِدَ. وأما بناء ما لم يقع فإنه قولك آمِراً اذهَبْ واقتُلْ واضرِبْ، ومخبِراً يَقْتُلُ ويَذهَبُ ويَضرِبُ ويَقتُلُ ويُضْرَبُ.
+                   .وكذلك بناء ما لم يَنقطع وهو كائن إذا أَخبرتَ فهذه الأمثلة التي أخذت من لفظ أحداث الأسماء، ولها أبنية كثيرة ستبين إن شاء الله والأحداث نحو الضَرْبِ والقَتْل الحَمْد</p>
+                  <pb n="36"/><p>وأما ما جاء لمعنى وليس باسم ولا فعل فنحو ثُمَ وسَوْفَ وواوالقسم ولام الإضافة ونحو هذا.</p>
+               </div>
+            </div>
+         </div>  
+      </div>
+      </body>
+      <back>
+         <list type="list_of_footnotes">
+            <item n="1"><note corresp="#note_1">1This translation will be based on Derenbourg’s edition of ʔal-kitāb as the base. All chapter, page and line numbers
+            refer to this edition.</note></item>
+            <item n="2"><note corresp="#note_2">2This tri-partite division will be elaborated on in the rest of ʔal-kitāb. Also to be mentioned is that a decision
+            was made to be as faithful to the literal meaning of the terms as possible.</note></item>
+            <item n="3"><note corresp="#note_3">3The way Sībawayh explains terms like ʔism 'name', fiʕl 'action', and ħarf 'particle', is by way of exemplification</note></item>
+            <item n="4"><note corresp="#note_4">4This form may be glossed as ‘he is killing’.</note></item>
+            <item n="5"><note corresp="#note_5">5At this early stage, the three classes of words are described both by what they are, names and events, with temporal indicators
+            marking the variety of actions, and by what they are not with the particles being different from both names and names of events and the temporality of actions. Each
+            class will be more fully attended to in the subsequent chapters.</note></item>
+         </list>
+         <div type="list_of_entries">
+            <entry>
+               <form type="lemma">
+                  <orth>في</orth>
+                  <pron notation="IPA">/fiː/</pron>
+               </form>
+               <gramGrp>
+                  <pos>preposition</pos>
+               </gramGrp>
+               <sense n="1">
+                  <def>Used to indicate location, inclusion, or position within spatial, temporal or other limits.</def>
+                  <cit type="translation" xml:lang="en">
+                     <quote>in, inside, within</quote>
+                  </cit>
+               </sense>
+               <sense n="2">
+                  <def>Used as a function word to indicate what is dealt with as the object of thought, feeling, or action.</def>
+                  <cit type="translation" xml:lang="en">
+                     <quote>of, about, in regards to, pertaining to, in the subject or topic of</quote>
+                  </cit>
+                  <cit type="example">
+                     <quote>هذا كتاب سيبويه المشهور في نحو واسمه الكتاب</quote>
+                  </cit>
+               </sense>
+            </entry>
+
+            <entry>
+               <form type="lemma">
+                  <orth>فرس</orth>
+                  <pron notation="IPA">/faras/</pron>
+               </form>
+               <gramGrp>
+                  <pos>noun</pos>
+               </gramGrp>
+               <form type="inflected">
+                  <orth>أفراس</orth>
+                  <pron notation="IPA">/ʔafraːs/</pron>
+                  <number>plural</number>
+               </form>
+               <sense n="1">
+                  <def>a four-footed mammal with hooves, a mane, and a tail, used for riding and pulling carts, etc.</def>
+                  <usg type="syn">حصان</usg>
+                  <cit type="translation" xml:lang="en">
+                     <quote>horse</quote>
+                  </cit>
+               </sense>
+            </entry>
+
+            <entry>
+               <form type="lemma" xml:id="ism">
+                  <orth>اسم</orth>
+                  <pron notation="IPA">/ism/</pron>
+               <gramGrp>
+                  <pos>noun</pos>
+               </gramGrp>
+                  <form type="inflected">
+                     <orth>أسماء</orth>
+                     <pron notation="IPA">/ʔasmaːʔ/</pron>
+                     <gramGrp>
+                        <number>plural</number>
+                     </gramGrp>
+                  </form>
+                  <form type="derivative" xml:id="ismiyy">
+                     <orth>اسمي</orth>
+                     <pron notation="IPA">/ismijj/</pron>
+                     <gramGrp>
+                        <pos>adjective</pos>
+                     </gramGrp>
+                  </form>
+               </form>
+               <sense n="1" corresp="#ism">
+                  <def>a word or term by which a person or thing is known</def>
+                  <cit type="translation" xml:lang="en">
+                     <quote>name</quote>
+                  </cit>
+               </sense>
+               <sense n="2" corresp="#ism">
+                  <usg type="dom">grammar</usg>
+                  <def>any of a class of words naming or denoting a person, thing, place, action, quality, etc.</def>
+                  <cit type="translation" xml:lang="en">
+                     <quote>noun</quote>
+                  </cit>
+               </sense>
+               <sense n="3" corresp="#ismiyy">
+                  <usg type="dom">grammar</usg>
+                  <def>of or relating to a noun or noun phrase</def>
+                  <cit type="translation" xml:lang="en">
+                     <quote>nominal</quote>
+                  </cit>
+               </sense>
+            </entry> 
+
+            <entry>
+               <form type="lemma" xml:id="daraba">
+                  <orth>ضرب</orth>
+                  <pron notation="IPA">/dˤaraba/</pron>
+                  <gramGrp>
+                     <pos>verb</pos>
+                     <number expand="third person singular">3ps</number>
+                     <gen>masculine</gen>
+                     <tns>past</tns>
+                  </gramGrp>
+                  <form type="inflected">
+                     <orth>اضرب</orth>
+                     <pron notation="IPA">/idˤrib/</pron>
+                     <gramGrp>
+                        <number expand="second person singular">2ps</number>
+                        <gen>masculine</gen>
+                        <mood>imperative</mood>
+                     </gramGrp>
+                  </form>
+                  <form type="inflected">
+                     <orth>يضرب</orth>
+                     <pron notation="IPA">jadˤribu</pron>
+                     <gramGrp>
+                        <number expand="third person singular">3ps</number>
+                        <gen>masculine</gen>
+                        <mood>indicative</mood>
+                        <tns>present</tns>
+                     </gramGrp>
+                  </form>
+                  <form type="derivative" xml:id="darb">
+                     <orth>ضرب</orth>
+                     <pron notation="IPA">dˤarb</pron>
+                     <gramGrp>
+                        <pos>noun</pos>
+                     </gramGrp>
+                  </form>
+               </form>
+               <sense n="1" corresp="#daraba">
+                  <def>to deal (a blow or stroke) to (a person or thing)</def>
+                  <cit type="translation" xml:lang="en">
+                     <quote>to hit</quote>
+                  </cit>
+               </sense>
+               <sense n="2" corresp="#darb">
+                  <def>an act or instance of striking or forcefully coming in contact with someone or something</def>
+                  <cit type="translation" xml:lang="en">
+                     <quote>hit</quote>
+                  </cit>
+               </sense>
+               <sense n="3" corresp="#darb">
+                  <usg type="dom">grammar</usg>
+                  <def>a manner, method, or means</def>
+                  <cit type="translation" xml:lang="en">
+                     <quote>way, manner, example</quote>
+                  </cit>
+                  <usg type="syn">نحو</usg>
+               </sense>
+            </entry>
+
+            <entry>
+               <form type="lemma">
+                  <orth>نحو</orth>
+                  <pron notation="IPA">/naħw/</pron>
+               </form>
+               <gramGrp>
+                  <pos>noun</pos>
+               </gramGrp>
+               <sense n="1">
+                  <def>the branch of linguistics that deals with syntax and morphology, sometimes also phonology and semantics</def>
+                  <cit type="translation" xml:lang="en">
+                     <quote>grammar</quote>
+                  </cit>
+               </sense>
+               <sense n="2">
+                  <usg type="dom">grammar</usg>
+                  <def>a manner, method, or means</def>
+                  <cit type="translation" xml:lang="en">
+                     <quote>way, manner, example</quote>
+                  </cit>
+                  <usg type="syn">ضرب</usg>
+               </sense>
+            </entry>
+         </div>
+      </back> 
+  </text>
+</TEI>
